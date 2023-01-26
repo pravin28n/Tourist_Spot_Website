@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('taj2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+
+}
+
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    /* link khalchi underline kadhun taknyasathi*/
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu a:first-child{
+    color: #00b894;       /* only HOME che color change karnyasathi */
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section {}
+
+section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
+/* learn more & signup */
+section a {
+
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+section .b1 {
+
+    background: #fff;
+    color: #000;
+}
+.b1:hover{
+    background: #00b894;
+    color: white;
+}
+
+section .b2 {
+    background: #00b894;
+    color: white;
+}
+.b2:hover{
+    background: #fff;
+    color: #000;
+}
+
+
+
+/* animation */
+.change_content:after{
+    content: '';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+
+}
+@keyframes changetext{
+    0%{content: "Mumbai";}
+    20%{content: "Pune";}
+    35%{content: "Karad";}
+    60%{content: "tuljapur";}
+    80%{content: "delhi";}
+    100%{content: "agra";}
+}
+
+.fotter{
+    width: 100%;
+    height: 4vh;
+    text-transform:none;
+    color: #00b894;
+    background: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.fotter :hover{
+    background: #00b894;
+    color: white;
+}
+
