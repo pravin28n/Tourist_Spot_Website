@@ -1,5 +1,6 @@
-# Tourist_Spot_Website
+# Tourist_Spot_Website #OnlyCSSProject
 The idea behind the tourist spot website is to display all tourist places in any particular village, city, or state.
+This website created by using only HTML and CSS.
 
 ![1](https://user-images.githubusercontent.com/114281988/214873236-a5746e86-0353-424e-9001-8a6283f58363.png)
 
